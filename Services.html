@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Explore the services I offer, from web development to virtual assistance."
+      name="description"
+    />
+    <title>Services | MyProfile</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body data-page="services">
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a aria-label="Go to homepage" class="logo" href="index.html"
+          >MyProfile<span>.</span></a
+        >
+        <button
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="nav-toggle"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav class="site-nav" id="primary-nav" role="navigation">
+          <ul>
+            <li><a data-nav="home" href="index.html">Home</a></li>
+            <li><a data-nav="about" href="About.html">About</a></li>
+            <li><a data-nav="projects" href="project.html">Projects</a></li>
+            <li><a data-nav="services" href="Services.html">Services</a></li>
+            <li><a data-nav="contact" href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="container section">
+        <h1>Services</h1>
+        <div class="grid service-cards">
+          <article class="card service">
+            <h3>Website Setup</h3>
+            <p>
+              From structure to deployment—clean markup, responsive styles, and
+              essential SEO.
+            </p>
+            <ul>
+              <li>Landing pages</li>
+              <li>Multi‑page sites</li>
+              <li>Basic SEO setup</li>
+            </ul>
+          </article>
+          <article class="card service">
+            <h3>Site Maintenance</h3>
+            <p>
+              Keep your site fast and secure with updates, audits, and fixes.
+            </p>
+            <ul>
+              <li>Speed improvements</li>
+              <li>Accessibility checks</li>
+              <li>Bug fixes</li>
+            </ul>
+          </article>
+          <article class="card service">
+            <h3>Virtual Assistance</h3>
+            <p>
+              Content updates, asset organization, and on‑page SEO—on schedule.
+            </p>
+            <ul>
+              <li>Content formatting</li>
+              <li>Image optimization</li>
+              <li>Basic analytics reports</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section class="container section alt">
+        <h2 class="section-title">Workflow</h2>
+        <ol class="steps">
+          <li>
+            <strong>Discover:</strong> Understand goals, audience, and scope.
+          </li>
+          <li>
+            <strong>Design:</strong> Wireframe layout and define components.
+          </li>
+          <li><strong>Develop:</strong> Build, test, and iterate quickly.</li>
+          <li>
+            <strong>Deploy:</strong> Launch with performance and SEO in mind.
+          </li>
+        </ol>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> MyProfile. All rights reserved.</p>
+        <ul aria-label="Social links" class="socials">
+          <li><a aria-label="Visit Facebook" href="#">Facebook</a></li>
+          <li><a aria-label="Visit Twitter/X" href="#">Twitter</a></li>
+          <li><a aria-label="Visit LinkedIn" href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

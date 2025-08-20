@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Personal profile website showcasing skills, services, and ways to get in touch."
+      name="description"
+    />
+    <title>Home | MyProfile</title>
+    <link as="style" href="styles.css" rel="preload" />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body data-page="home">
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a aria-label="Go to homepage" class="logo" href="index.html"
+          >MyProfile<span>.</span></a
+        >
+        <button
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="nav-toggle"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav class="site-nav" id="primary-nav" role="navigation">
+          <ul>
+            <li><a data-nav="home" href="index.html">Home</a></li>
+            <li><a data-nav="about" href="About.html">About</a></li>
+            <li><a data-nav="projects" href="project.html">Projects</a></li>
+            <li><a data-nav="services" href="Services.html">Services</a></li>
+            <li><a data-nav="contact" href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="hero container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="accent">Joemarie Ronday</span></h1>
+          <p class="lead">
+            Front-end developer and virtual assistant who builds fast,
+            accessible, and responsive websites.
+          </p>
+          <div class="cta-group">
+            <a class="btn primary" href="Services.html">View Services</a>
+            <a class="btn ghost" href="About.html">Learn More</a>
+          </div>
+        </div>
+
+        <div aria-hidden="true" class="hero-media">
+          <div class="blob"></div>
+          <div class="hero-img"></div>
+        </div>
+      </section>
+
+      <section class="container section">
+        <h2 class="section-title">Featured Skills</h2>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Responsive Design</h3>
+            <p>
+              Layouts that adapt to every screen with modern CSS, Grid, and
+              Flexbox.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Performance</h3>
+            <p>
+              Optimizing assets, lazy loading, and clean code that loads fast
+              everywhere.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Accessibility</h3>
+            <p>
+              Keyboard‑friendly, properly labeled, and inclusive interfaces by
+              default.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="container section alt">
+        <div class="split">
+          <div>
+            <h2 class="section-title">Ready to start a project?</h2>
+            <p>
+              Whether it’s a landing page or a full site, I can help you launch
+              quickly with clean HTML, CSS, and JavaScript.
+            </p>
+            <a class="btn primary" href="Contact.html">Contact Me</a>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <span class="num">5+</span
+              ><span class="label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="num">50+</span><span class="label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="num">100%</span
+              ><span class="label">Client Focused</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> MyProfile. All rights reserved.</p>
+        <ul aria-label="Social links" class="socials">
+          <li><a aria-label="Visit Facebook" href="#">Facebook</a></li>
+          <li><a aria-label="Visit Twitter/X" href="#">Twitter</a></li>
+          <li><a aria-label="Visit LinkedIn" href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

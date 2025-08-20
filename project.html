@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse recent projects and case studies."
+    />
+    <title>Projects | MyProfile</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="projects">
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a aria-label="Go to homepage" class="logo" href="index.html"
+          >MyProfile<span>.</span></a
+        >
+        <button
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="nav-toggle"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav class="site-nav" id="primary-nav" role="navigation">
+          <ul>
+            <li><a data-nav="home" href="index.html">Home</a></li>
+            <li><a data-nav="about" href="About.html">About</a></li>
+            <li><a data-nav="projects" href="project.html">Projects</a></li>
+            <li><a data-nav="services" href="Services.html">Services</a></li>
+            <li><a data-nav="contact" href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="main">
+      <section class="container section">
+        <h1>Projects</h1>
+        <p class="lead">
+          A snapshot of selected work. More details available upon request.
+        </p>
+
+        <div
+          class="grid cards"
+          style="grid-template-columns: repeat(auto-fit, minmax(230px, 1fr))"
+        >
+          <article class="card">
+            <h3>Landing Page Revamp</h3>
+            <p>Responsive redesign with improved Core Web Vitals.</p>
+          </article>
+          <article class="card">
+            <h3>Elementor Business Site</h3>
+            <p>SEO-friendly 6-page site with blog and forms.</p>
+          </article>
+          <article class="card">
+            <h3>Analytics Dashboard</h3>
+            <p>Interactive charts with a clean, accessible UI.</p>
+          </article>
+          <article class="card">
+            <h3>Campaign Microsite</h3>
+            <p>Lightweight static site built with HTML, CSS, and JS.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> MyProfile. All rights reserved.</p>
+        <ul aria-label="Social links" class="socials">
+          <li><a aria-label="Visit Facebook" href="#">Facebook</a></li>
+          <li><a aria-label="Visit Twitter/X" href="#">Twitter</a></li>
+          <li><a aria-label="Visit LinkedIn" href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

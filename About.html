@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Learn more about my background, approach, and values."
+      name="description"
+    />
+    <title>About | MyProfile</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body data-page="about">
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a aria-label="Go to homepage" class="logo" href="index.html"
+          >MyProfile<span>.</span></a
+        >
+        <button
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="nav-toggle"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav class="site-nav" id="primary-nav" role="navigation">
+          <ul>
+            <li><a data-nav="home" href="index.html">Home</a></li>
+            <li><a data-nav="about" href="About.html">About</a></li>
+            <li><a data-nav="projects" href="project.html">Projects</a></li>
+            <li><a data-nav="services" href="Services.html">Services</a></li>
+            <li><a data-nav="contact" href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="container section">
+        <h1>About Me</h1>
+        <div class="split about">
+          <div>
+            <p>
+              Hello! I’m a front‑end developer and virtual assistant. I enjoy
+              turning complex ideas into simple, elegant, and responsive web
+              experiences. My work blends clean code with a strong focus on SEO
+              and accessibility.
+            </p>
+            <p>
+              Outside of work, I stay curious—learning new tools, improving
+              workflows, and sharing tips that make the web better for everyone.
+            </p>
+          </div>
+          <aside class="aside">
+            <h2>Quick Facts</h2>
+            <ul class="facts">
+              <li>Location: Philippines</li>
+              <li>Specialty: HTML, CSS (Tailwind‑style utilities), JS</li>
+              <li>CMS: WordPress + Elementor</li>
+              <li>Values: Speed, clarity, and usability</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> MyProfile. All rights reserved.</p>
+        <ul aria-label="Social links" class="socials">
+          <li><a aria-label="Visit Facebook" href="#">Facebook</a></li>
+          <li><a aria-label="Visit Twitter/X" href="#">Twitter</a></li>
+          <li><a aria-label="Visit LinkedIn" href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

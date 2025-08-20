@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Get in touch to discuss your project or ask a question."
+      name="description"
+    />
+    <title>Contact | MyProfile</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body data-page="contact">
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a aria-label="Go to homepage" class="logo" href="index.html"
+          >MyProfile<span>.</span></a
+        >
+        <button
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="nav-toggle"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav class="site-nav" id="primary-nav" role="navigation">
+          <ul>
+            <li><a data-nav="home" href="index.html">Home</a></li>
+            <li><a data-nav="about" href="About.html">About</a></li>
+            <li><a data-nav="projects" href="project.html">Projects</a></li>
+            <li><a data-nav="services" href="Services.html">Services</a></li>
+            <li><a data-nav="contact" href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="container section">
+        <h1>Contact</h1>
+        <p>Send a message and I’ll get back to you as soon as possible.</p>
+        <form class="contact-form" id="contactForm" novalidate="">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input
+              id="name"
+              minlength="2"
+              name="name"
+              placeholder="Your name"
+              required=""
+              type="text"
+            />
+            <span aria-live="polite" class="error"></span>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required=""
+              type="email"
+            />
+            <span aria-live="polite" class="error"></span>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              minlength="10"
+              name="message"
+              placeholder="How can I help?"
+              required=""
+            ></textarea>
+            <span aria-live="polite" class="error"></span>
+          </div>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p
+            aria-live="polite"
+            class="form-status"
+            id="formStatus"
+            role="status"
+          ></p>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> MyProfile. All rights reserved.</p>
+        <ul aria-label="Social links" class="socials">
+          <li><a aria-label="Visit Facebook" href="#">Facebook</a></li>
+          <li><a aria-label="Visit Twitter/X" href="#">Twitter</a></li>
+          <li><a aria-label="Visit LinkedIn" href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
