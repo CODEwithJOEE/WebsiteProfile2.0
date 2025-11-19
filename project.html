@@ -44,29 +44,244 @@
           A snapshot of selected work. More details available upon request.
         </p>
 
-        <div
-          class="grid cards"
-          style="grid-template-columns: repeat(auto-fit, minmax(230px, 1fr))"
-        >
-          <article class="card">
-            <h3>Landing Page Revamp</h3>
-            <p>Responsive redesign with improved Core Web Vitals.</p>
-          </article>
-          <article class="card">
-            <h3>Elementor Business Site</h3>
-            <p>SEO-friendly 6-page site with blog and forms.</p>
-          </article>
-          <article class="card">
-            <h3>Analytics Dashboard</h3>
-            <p>Interactive charts with a clean, accessible UI.</p>
-          </article>
-          <article class="card">
-            <h3>Campaign Microsite</h3>
-            <p>Lightweight static site built with HTML, CSS, and JS.</p>
-          </article>
+        <!-- Project stats row -->
+        <div class="project-stats">
+          <div class="project-stat">
+            <span class="project-stat-num">6</span>
+            <span class="project-stat-label">Total</span>
+          </div>
+          <div class="project-stat">
+            <span class="project-stat-num">3</span>
+            <span class="project-stat-label">Completed</span>
+          </div>
+          <div class="project-stat">
+            <span class="project-stat-num">2</span>
+            <span class="project-stat-label">Live</span>
+          </div>
+          <div class="project-stat">
+            <span class="project-stat-num">1</span>
+            <span class="project-stat-label">Ongoing</span>
+          </div>
         </div>
+
+        <!-- Carousel -->
+        <div class="projects-carousel" aria-label="Project showcase">
+          <button
+            class="carousel-btn prev"
+            type="button"
+            aria-label="Previous project"
+          >
+            ‹
+          </button>
+
+          <div class="carousel-window">
+            <div class="carousel-track">
+              <!-- 1 -->
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img
+                    src="images/projects/profilewebsite.jpg"
+                    alt="Sample portfolio website screenshot"
+                  />
+                  <span class="project-status status-live">Live</span>
+                </div>
+                <div class="project-body">
+                  <h3>Sample Portfolio Website Project</h3>
+                  <p>
+                    A sample profile website showcasing projects, about,
+                    education, experience, and skills.
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag tag-html">HTML</span>
+                    <span class="tag tag-css">CSS</span>
+                    <span class="tag tag-js">JavaScript</span>
+                  </div>
+                  <a
+                    class="btn project-btn"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    View Live
+                  </a>
+                </div>
+              </article>
+
+              <!-- 2 -->
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img
+                    src="images/projects/OBI-Homepage.png"
+                    alt="OBI Services corporate website design"
+                  />
+                  <span class="project-status status-ongoing">Ongoing</span>
+                </div>
+                <div class="project-body">
+                  <h3>OBI Services Corporate Website</h3>
+                  <p>
+                    Corporate site work including SEO optimization, UI
+                    improvements, content updates, and performance enhancements.
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag tag-wp">WordPress</span>
+                    <span class="tag tag-php">PHP</span>
+                    <span class="tag tag-js">JavaScript</span>
+                    <span class="tag tag-html">HTML</span>
+                    <span class="tag tag-css">CSS</span>
+                  </div>
+                  <a
+                    class="btn project-btn"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    View Live
+                  </a>
+                </div>
+              </article>
+
+              <!-- 3 -->
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img
+                    src="images/projects/Coffee-Shop.jpg"
+                    alt="Coffee shop website preview"
+                  />
+                  <span class="project-status status-completed">Completed</span>
+                </div>
+                <div class="project-body">
+                  <h3>Coffee Shop Website</h3>
+                  <p>
+                    A business site for a coffee shop with menu pages and
+                    ordering forms. Built with PHP, JavaScript, HTML, CSS, and
+                    MySQL.
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag tag-php">PHP</span>
+                    <span class="tag tag-js">JavaScript</span>
+                    <span class="tag tag-sql">MySQL</span>
+                  </div>
+                  <a
+                    class="btn project-btn"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    View Live
+                  </a>
+                </div>
+              </article>
+
+              <!-- 4 -->
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img
+                    src="images/projects/Boba-Bliss.avif"
+                    alt="Milk tea shop website preview"
+                  />
+                  <span class="project-status status-completed">Completed</span>
+                </div>
+                <div class="project-body">
+                  <h3>Milk Tea Shop Website</h3>
+                  <p>
+                    Brand website for a milk tea shop with product catalog and
+                    contact form. Built with PHP, JavaScript, HTML, CSS &amp;
+                    MySQL.
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag tag-php">PHP</span>
+                    <span class="tag tag-js">JavaScript</span>
+                    <span class="tag tag-sql">MySQL</span>
+                  </div>
+                  <a
+                    class="btn project-btn"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    View Live
+                  </a>
+                </div>
+              </article>
+
+              <!-- 5 -->
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img
+                    src="images/projects/Disaster-Master.png"
+                    alt="Disaster Master Kotlin app logo"
+                  />
+                  <span class="project-status status-completed">Completed</span>
+                </div>
+                <div class="project-body">
+                  <h3>Disaster Master 2.0 (Kotlin)</h3>
+                  <p>
+                    A Kotlin app showing disasters with Tagalog, English, and
+                    Bisaya support plus before/after videos.
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag tag-kotlin">Kotlin</span>
+                    <span class="tag tag-sql">SQLite</span>
+                  </div>
+                  <a
+                    class="btn project-btn"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    View Live
+                  </a>
+                </div>
+              </article>
+
+              <!-- 6 -->
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img
+                    src="images/projects/myprofilewebsite.png"
+                    alt="Client portfolio website screenshot"
+                  />
+                  <span class="project-status status-live">Live</span>
+                </div>
+                <div class="project-body">
+                  <h3>Client Portfolio Website Project</h3>
+                  <p>
+                    A portfolio website for a client showcasing projects and
+                    skills. Built with HTML, CSS, and JavaScript.
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag tag-html">HTML</span>
+                    <span class="tag tag-css">CSS</span>
+                    <span class="tag tag-js">JavaScript</span>
+                  </div>
+                  <a
+                    class="btn project-btn"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    View Live
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <button
+            class="carousel-btn next"
+            type="button"
+            aria-label="Next project"
+          >
+            ›
+          </button>
+        </div>
+        <p class="carousel-note">
+          The projects rotate automatically. You can also use the arrows to
+          browse.
+        </p>
       </section>
     </main>
+
     <footer class="site-footer">
       <div class="container footer-inner">
         <p>© <span id="year"></span> MyProfile. All rights reserved.</p>
@@ -77,6 +292,97 @@
         </ul>
       </div>
     </footer>
+
+    <!-- Your existing global script -->
     <script src="script.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const track = document.querySelector(".carousel-track");
+        const cards = Array.from(track.querySelectorAll(".project-card"));
+        const prevBtn = document.querySelector(".carousel-btn.prev");
+        const nextBtn = document.querySelector(".carousel-btn.next");
+
+        if (!track || cards.length === 0) return;
+
+        let currentIndex = 0;
+        let cardWidth = 0;
+
+        // Clone first card → append to the end
+        const firstClone = cards[0].cloneNode(true);
+        firstClone.classList.add("clone");
+        track.appendChild(firstClone);
+
+        function updateCardWidth() {
+          cardWidth = cards[0].getBoundingClientRect().width;
+        }
+
+        function slideTo(index, animate = true) {
+          if (!animate) {
+            track.style.transition = "none";
+          } else {
+            track.style.transition = "transform 0.4s ease";
+          }
+
+          track.style.transform = `translateX(-${index * cardWidth}px)`;
+        }
+
+        function goToNext() {
+          currentIndex++;
+          slideTo(currentIndex);
+
+          // If we hit the clone (last fake slide)
+          if (currentIndex === cards.length) {
+            setTimeout(() => {
+              // Instantly jump back to real first card WITHOUT animation
+              currentIndex = 0;
+              slideTo(0, false);
+            }, 410);
+          }
+        }
+
+        function goToPrev() {
+          if (currentIndex === 0) {
+            // Jump instantly to the clone before sliding back
+            currentIndex = cards.length;
+            slideTo(currentIndex, false);
+            setTimeout(goToPrev, 15);
+            return;
+          }
+
+          currentIndex--;
+          slideTo(currentIndex);
+        }
+
+        // Resize handling
+        window.addEventListener("resize", () => {
+          updateCardWidth();
+          slideTo(currentIndex, false);
+        });
+
+        // Button events
+        nextBtn?.addEventListener("click", () => {
+          goToNext();
+          resetTimer();
+        });
+
+        prevBtn?.addEventListener("click", () => {
+          goToPrev();
+          resetTimer();
+        });
+
+        // Auto-slide every 5 seconds
+        let timer = setInterval(goToNext, 5000);
+
+        function resetTimer() {
+          clearInterval(timer);
+          timer = setInterval(goToNext, 5000);
+        }
+
+        // Initialize
+        updateCardWidth();
+        slideTo(currentIndex, false);
+      });
+    </script>
   </body>
 </html>
